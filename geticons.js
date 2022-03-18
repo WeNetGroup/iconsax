@@ -8,7 +8,7 @@ function init_iconsax(){
     document.querySelectorAll(".iconsax").forEach(iconsax => {
     	var TuT = iconsax.getAttribute("icon-name").toLowerCase().trim();
     	
-    	fetch("https://github.com/rwawiorka/iconsax/icons/" + TuT + ".svg")
+    	fetch("//rwawiorka.github.io/iconsax/icons/" + TuT + ".svg")
     	.then(n_n => {
     	  return n_n.text();
     	})
